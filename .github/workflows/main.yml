@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_API_KEY }}
-        run: git push https://noelty:$HF_API_KEY@huggingface.co/spaces/KnowledgeBay/knowledge-app main
+        run: git push https://noelty:$HF_TOKEN@huggingface.co/spaces/KnowledgeBay/knowledge-app main
